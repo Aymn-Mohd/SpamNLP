@@ -1,7 +1,3 @@
-Sure, I'll create a README.md file that describes the project and its components based on the provided script.
-
----
-
 # Spam/Ham Classifier using NLP
 
 This project is a web application that classifies emails as either "Spam" or "Ham" (not spam) using Natural Language Processing (NLP) techniques. The application is built with Streamlit, a framework for creating interactive web applications in Python.
