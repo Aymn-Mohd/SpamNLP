@@ -18,8 +18,8 @@ Ensure you have Python installed on your system. You can download it from [pytho
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/spam-ham-classifier.git
-cd spam-ham-classifier
+git clone https://github.com/Aymn-Mohd/SpamNLP.git
+cd SpamNLP
 ```
 
 ### Install Dependencies
