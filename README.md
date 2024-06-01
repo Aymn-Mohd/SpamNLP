@@ -34,6 +34,8 @@ Ensure you have the following files in the project directory:
 - `Vectorizer.pkl`: The trained TF-IDF vectorizer.
 - `Model.pkl`: The trained classification model.
 
+You can get these by running the final two commands in the jupyter notebook.
+
 ## Usage
 
 To run the Streamlit application, use the following command:
@@ -47,7 +49,7 @@ This will start the application, and you can access it in your web browser at `h
 ## Project Structure
 
 - `main.py`: The main script to run the Streamlit application.
-- `Vectorizer.pkl`: Pickle file containing the trained Count vectorizer.
+- `Vectorizer.pkl`: Pickle file containing the trained Count vectorizer and TfidfTransformer.
 - `Model.pkl`: Pickle file containing the trained machine learning model.
 - `requirements.txt`: List of required Python packages.
 
@@ -59,7 +61,7 @@ This will start the application, and you can access it in your web browser at `h
    - Punctuation is removed.
    - Stopwords are filtered out.
    - Words are stemmed using the Porter Stemmer.
-3. **Vectorization:** The preprocessed text is transformed using the CountVectorizer vectorizer.
+3. **Vectorization:** The preprocessed text is transformed using the CountVectorizer vectorizer and TfidfTransformer.
 4. **Prediction:** The transformed text is classified using the trained model.
 5. **Output:** The classification result ("Spam" or "Ham") is displayed on the web interface.
 
