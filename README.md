@@ -31,6 +31,7 @@ pip install -r requirements.txt
 ### Required Files
 
 Ensure you have the following files in the project directory:
+- `Dataset.csv`: Which can be downloaded from [here](https://www.kaggle.com/datasets/purusinghvi/email-spam-classification-dataset) & Rename it to `Dataset.csv`
 - `Vectorizer.pkl`: The trained TF-IDF vectorizer.
 - `Model.pkl`: The trained classification model.
 
